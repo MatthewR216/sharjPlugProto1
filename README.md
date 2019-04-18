@@ -1,2 +1,3 @@
-# sharjPlug-1
+# sharjPlugProto1
+
 First prototype for reseller website
