@@ -11,20 +11,141 @@
 
 	<!--Setting up stylesheets-->
 	<link rel="stylesheet" type="text/css" href="main.css" />
-	<link rel="stylesheet" type="text/css" href="../bootstrap-3.4.1-dist/css/bootstrap.min.css">
-
+	<link rel="stylesheet" type="text/css" href="../bootstrap-4.3.1-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../MDB/css/mdb.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+ 
 </head>
 
 <body>
 
-	<h1><mark>TEST</mark></h1>
+	<nav class="navbar navbar-expand-sm bg-dark">
 
-	<button class="btn btn-danger">YEET</button>
+		<ul class="navbar-nav navbar-dark">
+			<li class="nav-item">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
 
-	
+			<li class="nav-item">
+				<a class="nav-link" href="#">Shoes</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#">Clothing</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#">Enquiries</a>
+			</li>
+		</ul>
+
+		<div class="navbar-nav ml-auto">
+			<form class="form-inline" action="/action_page.php">
+				<span class="navbar-text mr-sm-2">Search for an item</span>
+				<input class="form-control mr-sm-2" type="text" placeholder="Search">
+				<button class="btn btn-success text-right" type="submit">Search</button>
+			</form>
+		</div>
+
+	</nav>
+
+	<div class="jumbotron text-center bg-light">
+		<h1>Sharjplug</h1>
+		<p>Place to find the most fire shoes</p>
+	</div>
+
+	<div class="container text-center">
+		<div class="row">
+		    <div class="col">
+				<h3>Resell Estimates</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+		    </div>
+		    <div class="col">
+				<h3>Fire shoes</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+		    </div>
+		    <div class="col">
+				<h3>Hyped clothing</h3>        
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+		    </div>
+		</div>
+	</div>
+
+	<div class="container mt-3">
+		<div class="row">
+			<div class="col-sm-8 m-auto text-center">
+				<h2>Top 3 Shoes of the Month</h2>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ul class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ul>
+
+					<!-- The slideshow -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="../images/j11.jpg" class="w-100 h-50 d-block">
+						</div>
+						<div class="carousel-item">
+							<img src="../images/j11.jpg" class="w-100 h-50 d-block">
+						</div>
+						<div class="carousel-item">
+							<img src="../images/j11.jpg" class="w-100 h-50 d-block">
+						</div>
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer font-small bg-light mt-5">
+		<!-- Footer Elements -->
+		<div class="container">
+
+			<!-- Grid row-->
+			<div class="row">
+
+			<!-- Grid column -->
+				<div class="col-md-12 py-5">
+					<div class="mb-5 flex-center justify-content-around">
+						<!--Instagram-->
+			            <a href="https://www.instagram.com/sharjplug/" class="ins-ic" target="_blank">
+			              <i class="fab fa-instagram fa-lg black-text fa-5x"></i>
+			            </a>
+						<!--Snapchat-->
+						<a href="https://www.instagram.com/sharjplug/" class="sc-ic" target="_blank">
+							<i class="fab fa-snapchat fa-lg black-text fa-5x"></i>
+						</a>
+					</div>
+				</div>
+		<!-- Grid column -->
+			</div>
+		<!-- Grid row-->
+    	</div>
+
+		<div class="footer-copyright blue text-center bg-dark py-3 text-white">
+			<p>© 2019 Copyright: dopeyPanda Productions</p>
+		</div>
+		
+		</footer>
 
 	<!--javascript files-->
-	<script src="../bootsrap-3.4.1-dist/js/bootstrap.min.js"></script>
 	<script src="../jquery-3.4.0.js"></script>
+	<script src="../bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
 
 </body>
+
+</html>
